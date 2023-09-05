@@ -1,0 +1,36 @@
+nav > ul {
+  display: flex;
+}
+
+nav li {
+  list-style: none;
+  margin-right: 20px;
+}
+
+nav li a {
+  text-decoration: none;
+  font-size: 24px;
+  color: black;
+  padding: 10px;
+}
+
+nav li a:hover {
+  background-color: orangered;
+}
+
+.blogs {
+  background-color: purple;
+  padding: 20px;
+  margin: 20px;
+  color: white;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.btn-text {
+  background-color: chocolate;
+  color: white;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 10px;
+}
